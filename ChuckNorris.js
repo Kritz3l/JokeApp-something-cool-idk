@@ -33,6 +33,11 @@ getJoke = () => {
         }
     };
     xhr.send();
+
+    //set new botton color
+    let randomColor = Math.floor(Math.random()*16777215).toString(16);
+    let button = document.getElementById("button");
+    button.style.backgroundColor = '#' + randomColor;
 };
 
 

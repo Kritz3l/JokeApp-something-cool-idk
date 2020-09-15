@@ -1,0 +1,29 @@
+html{
+    background-color: #fafafa;
+}
+#container{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0 0 10% 0;
+    background-color: #ADD4D9;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 3%;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+.wrapper{
+    text-align: center;
+    display: block;
+    margin: 10vh auto auto auto;
+    width: 30vw;
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 16px;
+}
